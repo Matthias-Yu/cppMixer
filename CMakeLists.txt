@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.10)
-project(echo_c++ C CXX)
+project(cppMixer)
 
 include(FindThreads)
 include(FindProtobuf)

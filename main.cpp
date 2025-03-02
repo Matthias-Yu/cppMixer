@@ -1,4 +1,4 @@
-#include "mixer.pb.h"
+#include "build/mixer.pb.h"
 #include <brpc/server.h>
 
 DEFINE_bool(echo_attachment, true, "Echo attachment as well");
