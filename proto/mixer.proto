@@ -11,9 +11,7 @@ service MixerService {
 }
 
 message RecommendRequest {
-  // 用户 ID
   string user_id = 1;
-  // 商品 ID
   string item_id = 2;
 }
 

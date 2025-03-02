@@ -57,6 +57,6 @@ set(DYNAMIC_LIB
     dl
     )
 
-add_executable(RecMixer main.cpp ${PROTO_SRC} ${PROTO_HEADER})
+add_executable(cppMixer main.cpp ${PROTO_SRC} ${PROTO_HEADER})
 
-target_link_libraries(RecMixer ${BRPC_LIB} ${DYNAMIC_LIB})
+target_link_libraries(cppMixer ${BRPC_LIB} ${DYNAMIC_LIB})
