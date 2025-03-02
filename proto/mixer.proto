@@ -3,6 +3,8 @@ syntax = "proto3";
 
 package mixer;
 
+option cc_generic_services = true;
+
 // Mixer 服务定义
 service MixerService {
   rpc Recommend(RecommendRequest) returns (RecommendResponse) {}
