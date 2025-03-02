@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+package mixer;
+
+// Mixer 服务定义
+service MixerService {
+  rpc Recommend(RecommendRequest) returns (RecommendResponse) {}
+}
+
+message RecommendRequest {
+  // 用户 ID
+  string user_id = 1;
+  // 商品 ID
+  string item_id = 2;
+}
+
+message RecommendResponse {
+  // 推荐商品 ID
+  string item_id = 1;
+}
